@@ -24,7 +24,7 @@ module.exports = {
   mode,
   plugins,
   target,
-  entry: "./src/index.ts",
+  entry: "./src/index.js",
   devtool: "source-map",
   resolve: {
     extensions: [".js", ".json", ".ts"],
