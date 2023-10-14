@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2015",
-    "lib": ["ES6"],
+    "lib": ["ES6", "DOM"],
     "module": "NodeNext",
      "rootDir": "./src",
     "resolveJsonModule": true,

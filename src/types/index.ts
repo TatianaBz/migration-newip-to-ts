@@ -1,8 +1,11 @@
-export interface FaceName {
-"id": string,
+export interface IFaceSources {
 "name": string,
-"description": string,
-"url": string,
-"category": string,
-"language": string,
-"country": string }
+"id": number}
+
+export interface IFaceNew {
+    "urlToImage": string,
+    "publishedAt": string,
+    "title": string,
+    "source": string,
+    "description": string,
+    "url": string}
